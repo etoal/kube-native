@@ -9,7 +9,8 @@ class apiUnitTests {
     void justAnExample() {
     	Product testProd = new Product((long)9999, "testWidget", 19.95);
         assertEquals(testProd.getProductId(), 9999);
-        assertEquals(9, 4 + 5);
-        fail("ET - making the test fail");
+        //assertEquals(9, 4 + 5);
+        //assertEquals(3, 8 - 5);
+        //fail("ET - making the test fail");
     }
 }
